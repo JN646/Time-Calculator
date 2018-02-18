@@ -27,5 +27,38 @@ namespace TimeCalculator
             AboutBox about = new AboutBox();
             about.Show();
         }
+
+        private void txtDays_TextChanged(object sender, EventArgs e)
+        {
+            // Variables
+            int days = 0;
+            int weeks = 0;
+            int months = 0;
+
+            // Get Days
+            if(txtDays.Text != "")
+            {
+                try
+                {
+                    days = Int32.Parse(txtDays.Text);
+                }
+                catch
+                {
+                    Console.Write("Invalid Value.");
+                }
+            } else
+            {
+                MessageBox.Show("Value cannot be empty.");
+            }
+
+            // Convert to weeks and months
+            weeks = days / 7;
+            months = days / 30;
+
+            // Output results
+            lblWeekslbl.Text = weeks.ToString();
+            lblMonthslbl.Text = months.ToString();
+
+        }
     }
 }

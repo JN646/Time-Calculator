@@ -33,6 +33,12 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblDays = new System.Windows.Forms.Label();
+            this.txtDays = new System.Windows.Forms.TextBox();
+            this.lblWeeks = new System.Windows.Forms.Label();
+            this.lblMonths = new System.Windows.Forms.Label();
+            this.lblWeekslbl = new System.Windows.Forms.Label();
+            this.lblMonthslbl = new System.Windows.Forms.Label();
             this.mnuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,7 +49,7 @@
             this.helpToolStripMenuItem});
             this.mnuStrip.Location = new System.Drawing.Point(0, 0);
             this.mnuStrip.Name = "mnuStrip";
-            this.mnuStrip.Size = new System.Drawing.Size(624, 24);
+            this.mnuStrip.Size = new System.Drawing.Size(244, 24);
             this.mnuStrip.TabIndex = 0;
             this.mnuStrip.Text = "menuStrip1";
             // 
@@ -77,11 +83,70 @@
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
+            // lblDays
+            // 
+            this.lblDays.AutoSize = true;
+            this.lblDays.Location = new System.Drawing.Point(12, 58);
+            this.lblDays.Name = "lblDays";
+            this.lblDays.Size = new System.Drawing.Size(34, 13);
+            this.lblDays.TabIndex = 1;
+            this.lblDays.Text = "Days:";
+            // 
+            // txtDays
+            // 
+            this.txtDays.Location = new System.Drawing.Point(95, 55);
+            this.txtDays.Name = "txtDays";
+            this.txtDays.Size = new System.Drawing.Size(137, 20);
+            this.txtDays.TabIndex = 2;
+            this.txtDays.TextChanged += new System.EventHandler(this.txtDays_TextChanged);
+            // 
+            // lblWeeks
+            // 
+            this.lblWeeks.AutoSize = true;
+            this.lblWeeks.Location = new System.Drawing.Point(12, 88);
+            this.lblWeeks.Name = "lblWeeks";
+            this.lblWeeks.Size = new System.Drawing.Size(44, 13);
+            this.lblWeeks.TabIndex = 1;
+            this.lblWeeks.Text = "Weeks:";
+            // 
+            // lblMonths
+            // 
+            this.lblMonths.AutoSize = true;
+            this.lblMonths.Location = new System.Drawing.Point(12, 118);
+            this.lblMonths.Name = "lblMonths";
+            this.lblMonths.Size = new System.Drawing.Size(45, 13);
+            this.lblMonths.TabIndex = 1;
+            this.lblMonths.Text = "Months:";
+            // 
+            // lblWeekslbl
+            // 
+            this.lblWeekslbl.AutoSize = true;
+            this.lblWeekslbl.Location = new System.Drawing.Point(92, 88);
+            this.lblWeekslbl.Name = "lblWeekslbl";
+            this.lblWeekslbl.Size = new System.Drawing.Size(27, 13);
+            this.lblWeekslbl.TabIndex = 1;
+            this.lblWeekslbl.Text = "N/A";
+            // 
+            // lblMonthslbl
+            // 
+            this.lblMonthslbl.AutoSize = true;
+            this.lblMonthslbl.Location = new System.Drawing.Point(92, 118);
+            this.lblMonthslbl.Name = "lblMonthslbl";
+            this.lblMonthslbl.Size = new System.Drawing.Size(27, 13);
+            this.lblMonthslbl.TabIndex = 1;
+            this.lblMonthslbl.Text = "N/A";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 441);
+            this.ClientSize = new System.Drawing.Size(244, 165);
+            this.Controls.Add(this.lblMonthslbl);
+            this.Controls.Add(this.lblMonths);
+            this.Controls.Add(this.lblWeekslbl);
+            this.Controls.Add(this.txtDays);
+            this.Controls.Add(this.lblWeeks);
+            this.Controls.Add(this.lblDays);
             this.Controls.Add(this.mnuStrip);
             this.MainMenuStrip = this.mnuStrip;
             this.Name = "Form1";
@@ -100,6 +165,12 @@
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.Label lblDays;
+        private System.Windows.Forms.TextBox txtDays;
+        private System.Windows.Forms.Label lblWeeks;
+        private System.Windows.Forms.Label lblMonths;
+        private System.Windows.Forms.Label lblWeekslbl;
+        private System.Windows.Forms.Label lblMonthslbl;
     }
 }
 
