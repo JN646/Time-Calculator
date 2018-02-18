@@ -45,7 +45,8 @@ namespace TimeCalculator
                 }
                 catch
                 {
-                    Console.Write("Invalid Value.");
+                    MessageBox.Show("Invalid Value.");
+                    txtDays.Text = "0";
                 }
             } else
             {

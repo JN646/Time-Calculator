@@ -41,6 +41,7 @@
             this.lblMonthslbl = new System.Windows.Forms.Label();
             this.lblYears = new System.Windows.Forms.Label();
             this.lblYearslbl = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.mnuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +52,7 @@
             this.helpToolStripMenuItem});
             this.mnuStrip.Location = new System.Drawing.Point(0, 0);
             this.mnuStrip.Name = "mnuStrip";
-            this.mnuStrip.Size = new System.Drawing.Size(244, 24);
+            this.mnuStrip.Size = new System.Drawing.Size(457, 24);
             this.mnuStrip.TabIndex = 0;
             this.mnuStrip.Text = "menuStrip1";
             // 
@@ -88,79 +89,97 @@
             // lblDays
             // 
             this.lblDays.AutoSize = true;
-            this.lblDays.Location = new System.Drawing.Point(12, 42);
+            this.lblDays.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDays.Location = new System.Drawing.Point(12, 47);
             this.lblDays.Name = "lblDays";
-            this.lblDays.Size = new System.Drawing.Size(34, 13);
+            this.lblDays.Size = new System.Drawing.Size(67, 25);
             this.lblDays.TabIndex = 1;
             this.lblDays.Text = "Days:";
             // 
             // txtDays
             // 
-            this.txtDays.Location = new System.Drawing.Point(95, 39);
+            this.txtDays.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDays.Location = new System.Drawing.Point(119, 44);
             this.txtDays.Name = "txtDays";
-            this.txtDays.Size = new System.Drawing.Size(137, 20);
+            this.txtDays.Size = new System.Drawing.Size(137, 31);
             this.txtDays.TabIndex = 2;
             this.txtDays.TextChanged += new System.EventHandler(this.txtDays_TextChanged);
             // 
             // lblWeeks
             // 
             this.lblWeeks.AutoSize = true;
-            this.lblWeeks.Location = new System.Drawing.Point(12, 72);
+            this.lblWeeks.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWeeks.Location = new System.Drawing.Point(12, 105);
             this.lblWeeks.Name = "lblWeeks";
-            this.lblWeeks.Size = new System.Drawing.Size(44, 13);
+            this.lblWeeks.Size = new System.Drawing.Size(84, 25);
             this.lblWeeks.TabIndex = 1;
             this.lblWeeks.Text = "Weeks:";
             // 
             // lblMonths
             // 
             this.lblMonths.AutoSize = true;
-            this.lblMonths.Location = new System.Drawing.Point(12, 102);
+            this.lblMonths.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMonths.Location = new System.Drawing.Point(12, 135);
             this.lblMonths.Name = "lblMonths";
-            this.lblMonths.Size = new System.Drawing.Size(45, 13);
+            this.lblMonths.Size = new System.Drawing.Size(89, 25);
             this.lblMonths.TabIndex = 1;
             this.lblMonths.Text = "Months:";
             // 
             // lblWeekslbl
             // 
             this.lblWeekslbl.AutoSize = true;
-            this.lblWeekslbl.Location = new System.Drawing.Point(92, 72);
+            this.lblWeekslbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWeekslbl.Location = new System.Drawing.Point(114, 105);
             this.lblWeekslbl.Name = "lblWeekslbl";
-            this.lblWeekslbl.Size = new System.Drawing.Size(27, 13);
+            this.lblWeekslbl.Size = new System.Drawing.Size(47, 25);
             this.lblWeekslbl.TabIndex = 1;
             this.lblWeekslbl.Text = "N/A";
             // 
             // lblMonthslbl
             // 
             this.lblMonthslbl.AutoSize = true;
-            this.lblMonthslbl.Location = new System.Drawing.Point(92, 102);
+            this.lblMonthslbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMonthslbl.Location = new System.Drawing.Point(114, 135);
             this.lblMonthslbl.Name = "lblMonthslbl";
-            this.lblMonthslbl.Size = new System.Drawing.Size(27, 13);
+            this.lblMonthslbl.Size = new System.Drawing.Size(47, 25);
             this.lblMonthslbl.TabIndex = 1;
             this.lblMonthslbl.Text = "N/A";
             // 
             // lblYears
             // 
             this.lblYears.AutoSize = true;
-            this.lblYears.Location = new System.Drawing.Point(12, 132);
+            this.lblYears.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblYears.Location = new System.Drawing.Point(12, 165);
             this.lblYears.Name = "lblYears";
-            this.lblYears.Size = new System.Drawing.Size(37, 13);
+            this.lblYears.Size = new System.Drawing.Size(75, 25);
             this.lblYears.TabIndex = 1;
             this.lblYears.Text = "Years:";
             // 
             // lblYearslbl
             // 
             this.lblYearslbl.AutoSize = true;
-            this.lblYearslbl.Location = new System.Drawing.Point(92, 132);
+            this.lblYearslbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblYearslbl.Location = new System.Drawing.Point(114, 165);
             this.lblYearslbl.Name = "lblYearslbl";
-            this.lblYearslbl.Size = new System.Drawing.Size(27, 13);
+            this.lblYearslbl.Size = new System.Drawing.Size(47, 25);
             this.lblYearslbl.TabIndex = 1;
             this.lblYearslbl.Text = "N/A";
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::TimeCalculator.Properties.Resources.clock;
+            this.panel1.Location = new System.Drawing.Point(297, 61);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(160, 158);
+            this.panel1.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(244, 163);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(457, 218);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblYearslbl);
             this.Controls.Add(this.lblMonthslbl);
             this.Controls.Add(this.lblYears);
@@ -173,6 +192,7 @@
             this.MainMenuStrip = this.mnuStrip;
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Time Calculator";
             this.mnuStrip.ResumeLayout(false);
             this.mnuStrip.PerformLayout();
@@ -196,6 +216,7 @@
         private System.Windows.Forms.Label lblMonthslbl;
         private System.Windows.Forms.Label lblYears;
         private System.Windows.Forms.Label lblYearslbl;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
