@@ -88,7 +88,7 @@
             // lblDays
             // 
             this.lblDays.AutoSize = true;
-            this.lblDays.Location = new System.Drawing.Point(12, 58);
+            this.lblDays.Location = new System.Drawing.Point(12, 42);
             this.lblDays.Name = "lblDays";
             this.lblDays.Size = new System.Drawing.Size(34, 13);
             this.lblDays.TabIndex = 1;
@@ -96,7 +96,7 @@
             // 
             // txtDays
             // 
-            this.txtDays.Location = new System.Drawing.Point(95, 55);
+            this.txtDays.Location = new System.Drawing.Point(95, 39);
             this.txtDays.Name = "txtDays";
             this.txtDays.Size = new System.Drawing.Size(137, 20);
             this.txtDays.TabIndex = 2;
@@ -105,7 +105,7 @@
             // lblWeeks
             // 
             this.lblWeeks.AutoSize = true;
-            this.lblWeeks.Location = new System.Drawing.Point(12, 88);
+            this.lblWeeks.Location = new System.Drawing.Point(12, 72);
             this.lblWeeks.Name = "lblWeeks";
             this.lblWeeks.Size = new System.Drawing.Size(44, 13);
             this.lblWeeks.TabIndex = 1;
@@ -114,7 +114,7 @@
             // lblMonths
             // 
             this.lblMonths.AutoSize = true;
-            this.lblMonths.Location = new System.Drawing.Point(12, 118);
+            this.lblMonths.Location = new System.Drawing.Point(12, 102);
             this.lblMonths.Name = "lblMonths";
             this.lblMonths.Size = new System.Drawing.Size(45, 13);
             this.lblMonths.TabIndex = 1;
@@ -123,7 +123,7 @@
             // lblWeekslbl
             // 
             this.lblWeekslbl.AutoSize = true;
-            this.lblWeekslbl.Location = new System.Drawing.Point(92, 88);
+            this.lblWeekslbl.Location = new System.Drawing.Point(92, 72);
             this.lblWeekslbl.Name = "lblWeekslbl";
             this.lblWeekslbl.Size = new System.Drawing.Size(27, 13);
             this.lblWeekslbl.TabIndex = 1;
@@ -132,7 +132,7 @@
             // lblMonthslbl
             // 
             this.lblMonthslbl.AutoSize = true;
-            this.lblMonthslbl.Location = new System.Drawing.Point(92, 118);
+            this.lblMonthslbl.Location = new System.Drawing.Point(92, 102);
             this.lblMonthslbl.Name = "lblMonthslbl";
             this.lblMonthslbl.Size = new System.Drawing.Size(27, 13);
             this.lblMonthslbl.TabIndex = 1;
@@ -141,7 +141,7 @@
             // lblYears
             // 
             this.lblYears.AutoSize = true;
-            this.lblYears.Location = new System.Drawing.Point(12, 148);
+            this.lblYears.Location = new System.Drawing.Point(12, 132);
             this.lblYears.Name = "lblYears";
             this.lblYears.Size = new System.Drawing.Size(37, 13);
             this.lblYears.TabIndex = 1;
@@ -150,7 +150,7 @@
             // lblYearslbl
             // 
             this.lblYearslbl.AutoSize = true;
-            this.lblYearslbl.Location = new System.Drawing.Point(92, 148);
+            this.lblYearslbl.Location = new System.Drawing.Point(92, 132);
             this.lblYearslbl.Name = "lblYearslbl";
             this.lblYearslbl.Size = new System.Drawing.Size(27, 13);
             this.lblYearslbl.TabIndex = 1;
@@ -160,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(244, 186);
+            this.ClientSize = new System.Drawing.Size(244, 163);
             this.Controls.Add(this.lblYearslbl);
             this.Controls.Add(this.lblMonthslbl);
             this.Controls.Add(this.lblYears);

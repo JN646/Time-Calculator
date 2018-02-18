@@ -31,10 +31,10 @@ namespace TimeCalculator
         private void txtDays_TextChanged(object sender, EventArgs e)
         {
             // Variables
-            int days = 0;
-            int weeks = 0;
-            int months = 0;
-            int years = 0;
+            float days = 0;
+            float weeks = 0;
+            float months = 0;
+            float years = 0;
 
             // Get Days
             if(txtDays.Text != "")
@@ -58,9 +58,9 @@ namespace TimeCalculator
             years = days / 365;
 
             // Output results
-            lblWeekslbl.Text = weeks.ToString();
-            lblMonthslbl.Text = months.ToString();
-            lblYearslbl.Text = years.ToString();
+            lblWeekslbl.Text = weeks.ToString("0.##");
+            lblMonthslbl.Text = months.ToString("0.##");
+            lblYearslbl.Text = years.ToString("0.##");
         }
     }
 }
