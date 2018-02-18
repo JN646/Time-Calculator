@@ -34,6 +34,7 @@ namespace TimeCalculator
             int days = 0;
             int weeks = 0;
             int months = 0;
+            int years = 0;
 
             // Get Days
             if(txtDays.Text != "")
@@ -54,11 +55,12 @@ namespace TimeCalculator
             // Convert to weeks and months
             weeks = days / 7;
             months = days / 30;
+            years = days / 365;
 
             // Output results
             lblWeekslbl.Text = weeks.ToString();
             lblMonthslbl.Text = months.ToString();
-
+            lblYearslbl.Text = years.ToString();
         }
     }
 }

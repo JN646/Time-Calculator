@@ -39,6 +39,8 @@
             this.lblMonths = new System.Windows.Forms.Label();
             this.lblWeekslbl = new System.Windows.Forms.Label();
             this.lblMonthslbl = new System.Windows.Forms.Label();
+            this.lblYears = new System.Windows.Forms.Label();
+            this.lblYearslbl = new System.Windows.Forms.Label();
             this.mnuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,12 +138,32 @@
             this.lblMonthslbl.TabIndex = 1;
             this.lblMonthslbl.Text = "N/A";
             // 
+            // lblYears
+            // 
+            this.lblYears.AutoSize = true;
+            this.lblYears.Location = new System.Drawing.Point(12, 148);
+            this.lblYears.Name = "lblYears";
+            this.lblYears.Size = new System.Drawing.Size(37, 13);
+            this.lblYears.TabIndex = 1;
+            this.lblYears.Text = "Years:";
+            // 
+            // lblYearslbl
+            // 
+            this.lblYearslbl.AutoSize = true;
+            this.lblYearslbl.Location = new System.Drawing.Point(92, 148);
+            this.lblYearslbl.Name = "lblYearslbl";
+            this.lblYearslbl.Size = new System.Drawing.Size(27, 13);
+            this.lblYearslbl.TabIndex = 1;
+            this.lblYearslbl.Text = "N/A";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(244, 165);
+            this.ClientSize = new System.Drawing.Size(244, 186);
+            this.Controls.Add(this.lblYearslbl);
             this.Controls.Add(this.lblMonthslbl);
+            this.Controls.Add(this.lblYears);
             this.Controls.Add(this.lblMonths);
             this.Controls.Add(this.lblWeekslbl);
             this.Controls.Add(this.txtDays);
@@ -149,6 +171,7 @@
             this.Controls.Add(this.lblDays);
             this.Controls.Add(this.mnuStrip);
             this.MainMenuStrip = this.mnuStrip;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Time Calculator";
             this.mnuStrip.ResumeLayout(false);
@@ -171,6 +194,8 @@
         private System.Windows.Forms.Label lblMonths;
         private System.Windows.Forms.Label lblWeekslbl;
         private System.Windows.Forms.Label lblMonthslbl;
+        private System.Windows.Forms.Label lblYears;
+        private System.Windows.Forms.Label lblYearslbl;
     }
 }
 
